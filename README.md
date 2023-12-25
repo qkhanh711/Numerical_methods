@@ -67,9 +67,12 @@ $$
 ## Recurrence formula:
 
 $$ x_{n+1} = x{n} - \frac{f(x_{n})}{f'{x_{n}}} $$
-- Taylor series expansion at x = a:
-- Since f{c} = 0, then
-- Since x_{n+1} = x{n} - \frac{f(x_{n})}{f'{x_{n}}}, then
+- $$ \text{Taylor series expansion at } x = a:$$
+    $$f(x) = f(a) = f'(a)(x - a)+...+ \frac{f^ka}{k!}(x-a)^k + \frac{f^{k+1}A}{(k+1)!}(x-a)^{k+1}$$ 
+    $$ \text{for some A between a and x.}$$
+- $$ \text{Since} f{c} = 0, then $$
+
+- $$ \text{Since }x_{n+1} = x{n} - \frac{f(x_{n})}{f'{x_{n}}}, then $$
 
 ## Advantages
 - Converges quadrarically
