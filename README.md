@@ -64,7 +64,7 @@ $$
 
 # Newton Raphson
 
-# Recurrence formula:
+## Recurrence formula:
 
 $$ x_{n+1} = x{n} - \frac{f(x_{n})}{f'{x_{n}}} $$
 - Taylor series expansion at x = a:
