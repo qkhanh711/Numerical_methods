@@ -2,13 +2,16 @@
 
 <h3> Order of convergence and Rate convergence </h3>
 
-$$ \text{A sequence {Xn} that converges to x* is said to have order of convergence q >= 1 and rate of convergence } \mu > 0 \text{(being a constant) if:}$$
+$$ \text{A sequence {Xn} that converges to x* is said to have order of convergence \\
 
-$$\lim_{n \to \infty} \frac{|X_{n+1} - x^*|}{|X_n - X^*|^q} = \mu$$
+q >= 1 and rate of convergence } \mu > 0 \text{(being a constant) if:}$$
+
+$$ \lim_{n \to \infty} \frac{|X_{n+1} - x^*|}{|X_n - X^*|^q} = \mu $$
 
 $$ \text{for } q = 1 : 0 < \mu < 1 : \text{linear convergence.}$$
 
-$$\begin{align*}
+$$
+\begin{align*}
 \mu &= 1 : \text{Sublinear convergence} \\
 \mu &= 0 : \text{Superlinear convergence} \\
 \mu &= 2 : \text{Quadratic convergence}
