@@ -2,9 +2,11 @@
 
 <h3> Order of convergence and Rate convergence </h3>
 
-$$ \text{A sequence {Xn} that converges to x* is said to have order of convergence \\
+$$ 
+\text{A sequence {Xn} that converges to x* is said to have order of convergence
+q >= 1 and rate of convergence } \mu > 0 \text{(being a constant) if:}
 
-q >= 1 and rate of convergence } \mu > 0 \text{(being a constant) if:}$$
+$$
 
 $$ \lim_{n \to \infty} \frac{|X_{n+1} - x^*|}{|X_n - X^*|^q} = \mu $$
 
