@@ -3,9 +3,7 @@
 <h3> Order of convergence and Rate convergence </h3>
 
 $$ 
-\text{A sequence {Xn} that converges to x* is said to have order of convergence
-q >= 1 and rate of convergence } \mu > 0 \text{(being a constant) if:}
-
+\text{A sequence } {X_n} \text{ that converges to } x^* \text{ is said to have order of convergence q >= 1 and rate of convergence } \mu > 0 \text{ (being a constant) if:}
 $$
 
 $$ \lim_{n \to \infty} \frac{|X_{n+1} - x^*|}{|X_n - X^*|^q} = \mu $$
@@ -73,11 +71,18 @@ $$
 
 $$ x_{n+1} = x{n} - \frac{f(x_{n})}{f'{x_{n}}} $$
 - $$ \text{Taylor series expansion at } x = a:$$
-    $$f(x) = f(a) = f'(a)(x - a)+...+ \frac{f^ka}{k!}(x-a)^k + \frac{f^{k+1}A}{(k+1)!}(x-a)^{k+1}$$ 
-    $$ \text{for some A between a and x.}$$
-- $$ \text{Since} f{c} = 0, then $$
+    
+$$f(x) = f(a) = f'(a)(x - a)+...+ \frac{f^ka}{k!}(x-a)^k + \frac{f^{k+1}\xi}{(k+1)!}(x-a)^{k+1}$$ 
 
-- $$ \text{Since }x_{n+1} = x{n} - \frac{f(x_{n})}{f'{x_{n}}}, then $$
+$$ \text{for some } \xi \text{ between a and x.}$$
+
+- $$ \text{Since } f{c} = 0 \text{, then} $$
+
+$$ \frac{f(x_n)}{f'(x_n)} + c - x_n = \frac{-f''(\xi_n)}{2*f'(x_n)} (c-x_n)^2 $$
+
+- $$ \text{Since }x_{n+1} = x_{n} - \frac{f(x_{n})}{f'{x_{n}}}, then $$
+
+$$  \frac{|x_{n+1}-c|}{|x_n - c|^2} =  \frac{|f''(\xi_n)|}{2|f'(x_n)|} = \mu$$
 
 ## Advantages
 - Converges quadrarically
